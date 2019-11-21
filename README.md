@@ -34,7 +34,7 @@ Complete the following tasks before you start trying the Agora Cloud Recording R
   - `sid`: You do not need to enter any value for this variable. This variable is automatically populated with the response of the `start` method.
 - Open Postman and import `Agora.io.postman_collection.json`.
 - Select the corresponding environment.
-![img](../pics/choose env.png)
+![img](../pics/choose%20env.png)
 
 
 
