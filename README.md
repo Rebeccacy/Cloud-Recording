@@ -1,3 +1,5 @@
+# Agora Cloud Recording Postman Collection
+
 Agora offers a Postman collection that contains sample RESTful API requests for cloud recording. 
 
 ## Prerequisites
@@ -30,12 +32,12 @@ Complete the following tasks before you start trying the Agora Cloud Recording R
   - `AccessKey`: The access key of the third-party cloud storage.
   - `SecretKey`: The secret key of the third-party cloud storage.
   - `sid`: You do not need to enter any value for this variable. This variable is automatically populated with the response of the `start` method.
-- Open Postman and import Agora.io.postman_collection.json.
+- Open Postman and import `Agora.io.postman_collection.json`.
 - Select the corresponding environment.
 
 ## Acquire the resource ID
 
-Once you set up the environment with variables and get your live stream running, call the `acquire` method to get your resource ID. To do so, double-click **acquire** to open the request in a new tab, and click **Send** to send the request. You can find the response of the request in the **Response** section.
+After you set up the environment in Postman and get your live stream running, call the `acquire` method to get your resource ID. To do so, double-click **acquire** to open the request in a new tab, and click **Send** to send the request. You can find the response of the request in the **Response** section.
 
 ![img](https://miro.medium.com/max/6128/1*ka4adlQrqjOs3zLIAnKK6w.png)
 
