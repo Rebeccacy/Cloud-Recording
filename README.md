@@ -40,7 +40,7 @@ Complete the following tasks before you start trying the Cloud Recording RESTful
   - `sid`: You do not need to enter any value for this variable. This variable is automatically populated with the response of the `start` method.
 - Open Postman and import `Cloud_Recording.postman_collection.json` and `Cloud_Recording.postman_environment.json`.
 - Make sure you select the `Agora-Development` environment.
-![img](./pics/select_env.jpg)
+![img](./pics/select_env.png)
 
 
 
@@ -49,7 +49,7 @@ Complete the following tasks before you start trying the Cloud Recording RESTful
 
 After you set up the environment in Postman and get your live stream running, call the `acquire` method to get your resource ID. To do so, double-click **acquire** to open the request in a new tab, and click **Send** to send the request. You can find the response of the request in the **Response** section.
 
-![img](./pics/acquire_response.jpg)
+![img](./pics/acquire_response.png)
 
 ## Start and stop recording
 
